@@ -1,11 +1,11 @@
-@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+@charset "UTF-8";
 body {
-  font-family: Roboto,sans-serif; }
+  font-family: Roboto, sans-serif; }
 
 a {
   color: #673AB7; }
   a:hover {
-    color: #512DA8; }
+    color: #3b216a; }
 
 main {
   margin-top: 20px; }
@@ -15,34 +15,30 @@ main {
   background: #673AB7;
   border: 1px solid #673AB7; }
   .btn-primary:hover {
-    background: #512DA8;
-    border: 1px solid #512DA8; }
+    background: #3b216a;
+    border: 1px solid #3b216a; }
 
 .btn-outline-primary {
   color: #673AB7;
   border: 1px solid #673AB7; }
   .btn-outline-primary:hover {
     color: white;
-    background-color: #512DA8;
-    border: 1px solid #512DA8; }
+    background-color: #3b216a;
+    border: 1px solid #3b216a; }
 
 .form-control:focus {
   border: 1px solid #03A9F4;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #03A9F4;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #03A9F4; }
 
 option:focus, option:active, option:checked {
-  background: -webkit-gradient(linear, left top, left bottom, from(#0275a8), to(#0275a8));
-  background: -webkit-linear-gradient(#0275a8, #0275a8);
-  background: -o-linear-gradient(#0275a8, #0275a8);
-  background: linear-gradient(#0275a8, #0275a8); }
+  background: linear-gradient(#03A9F4, #03A9F4); }
 
 label {
   cursor: pointer; }
   label input[type=checkbox] {
     display: none; }
     label input[type=checkbox] + .label-text::before {
-      content: "\f096";
+      content: "";
       font-family: "FontAwesome";
       speak: none;
       font-style: normal;
@@ -55,14 +51,14 @@ label {
       margin-right: 5px;
       color: #03A9F4; }
     label input[type=checkbox]:checked + .label-text::before {
-      content: "\f14a"; }
+      content: ""; }
     label input[type=checkbox]:disabled + .label-text::before {
-      content: "\f096";
-      color: #47c4fd; }
+      content: "";
+      color: #60ccfd; }
   label input[type=radio] {
     display: none; }
     label input[type=radio] + .label-text::before {
-      content: "\f1db";
+      content: "";
       font-family: "FontAwesome";
       speak: none;
       font-style: normal;
@@ -75,10 +71,10 @@ label {
       margin-right: 5px;
       color: #03A9F4; }
     label input[type=radio]:checked + .label-text::before {
-      content: "\f192"; }
+      content: ""; }
     label input[type=radio]:disabled + .label-text::before {
-      content: "\f1db";
-      color: #47c4fd; }
+      content: "";
+      color: #60ccfd; }
 
 .badge-default {
   background-color: #673AB7; }
@@ -89,7 +85,7 @@ label {
   .navbar .navbar-brand {
     color: #673AB7; }
     .navbar .navbar-brand:hover {
-      color: #512DA8; }
+      color: #3b216a; }
   .navbar .navbar-nav .nav-item .nav-link {
     color: #757575; }
     .navbar .navbar-nav .nav-item .nav-link:hover {
@@ -97,10 +93,17 @@ label {
   .navbar .navbar-nav .active .nav-link {
     color: #673AB7; }
     .navbar .navbar-nav .active .nav-link:hover {
-      color: #512DA8; }
+      color: #3b216a; }
 
 .card .card-text {
   color: #757575; }
+.card .card-header {
+  background: #673AB7;
+  color: White; }
+  .card .card-header a {
+    color: White; }
+    .card .card-header a:hover {
+      color: #f1f1f1; }
 
 .card-inverse {
   color: white; }
@@ -110,3 +113,26 @@ label {
 .bg-app-color {
   background-color: #673AB7;
   color: White; }
+
+.alert-info {
+  background: #9f80d7;
+  border: 1px solid #9f80d7;
+  color: white; }
+
+.pagination .page-item .page-link {
+  color: #02638f; }
+
+.progress .progress-bar {
+  background-color: #673AB7; }
+
+.dropdown .dropdown-menu .dropdown-item:hover {
+  background: #673AB7;
+  color: White; }
+
+.modal-dialog .modal-content .modal-header {
+  background: #673AB7;
+  color: White; }
+  .modal-dialog .modal-content .modal-header .close {
+    color: White; }
+
+/*# sourceMappingURL=style.css.map */
