@@ -1,0 +1,68 @@
+
+.form-control:focus
+  border: 1px solid $accent-color
+  transition: border 0.5s ease-in-out
+
+input[type=text],input[type=email],input[type=password],input[type=text]
+  border-radius: 30px
+
+.input-group-addon
+  background: $accent-color
+  color: White
+
+
+option:focus,option:active,option:checked
+  background: linear-gradient($accent-color, $accent-color)
+
+label
+  cursor: pointer
+
+  input[type=checkbox]
+    display: none
+
+
+    + .label-text::before
+      content: "\f096"
+      font-family: "FontAwesome"
+      speak: none
+      font-style: normal
+      font-weight: normal
+      font-variant: normal
+      font-size: 1.5em
+      text-transform: none
+      line-height: 1
+      width: 1em
+      display: inline-block
+      margin-right: 5px
+      color: $accent-color
+
+    &:checked + .label-text::before
+      content: "\f14a"
+
+    &:disabled + .label-text::before
+      content: "\f096"
+      color: $accent-color-light
+
+  input[type=radio]
+    display: none
+
+    + .label-text::before
+      content: "\f1db"
+      font-family: "FontAwesome"
+      speak: none
+      font-style: normal
+      font-weight: normal
+      font-variant: normal
+      text-transform: none
+      line-height: 1
+      width: 1em
+      display: inline-block
+      margin-right: 5px
+      color: $accent-color
+
+    &:checked + .label-text::before
+      content: "\f192"
+
+    &:disabled + .label-text::before
+      content: "\f1db"
+      color: $accent-color-light

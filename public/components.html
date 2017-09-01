@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <button class="btn btn-secondary">Default</button>
+          <button class="btn btn-primary">Primary</button>
+          <button class="btn btn-info">Info</button>
+          <button class="btn btn-success">Success</button>
+          <button class="btn btn-warning">Warning</button>
+          <button class="btn btn-danger">Danger</button>
+          <button class="btn btn-neutral">Neutral</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6">
+          <button class="btn btn-primary btn-lg">Large</button>
+          <button class="btn btn-primary">Normal</button>
+          <button class="btn btn-primary btn-sm">Small</button>
+        </div>
+        <div class="col-6">
+          <button class="btn btn-primary">Default</button>
+          <button class="btn btn-primary btn-round">Round</button>
+          <button class="btn btn-primary btn-round">
+          	<i class="fa fa-heart"> </i> With Icon
+          </button>
+          <button class="btn btn-primary btn-icon  btn-icon-mini btn-round">
+          	<i class="fa fa-envelope"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="row">
+          <div class="col-12">
+            <label class="form-check-label">
+              <input type="checkbox" class="form-check-input">
+              <span class="label-text">Check me out</span>
+            </label>
+          </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <div class="dropdown">
+            <a href="#pablo" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" id="navbarDropdownMenuLink1">
+            	Regular
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink1">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">One more separated link</a>
+            </ul>
+        </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-4">
+            <div class="form-group">
+                <input type="text" value="" placeholder="Regular" class="form-control">
+            </div>
+        </div>
+
+        <div class="col-sm-4">
+            <div class="form-group has-success">
+                <input type="text" value="Success" class="form-control form-control-success">
+            </div>
+        </div>
+
+        <div class="col-sm-4">
+            <div class="form-group has-danger">
+                <input type="email" value="Error Input" class="form-control form-control-danger">
+            </div>
+        </div>
+
+        <div class="col-sm-4">
+            <div class="input-group">
+                <span class="input-group-addon">
+                    <i class="fa fa-user-circle"></i>
+                </span>
+                <input type="text" class="form-control" placeholder="Left Font Awesome Icon">
+            </div>
+        </div>
+
+        <div class="col-sm-4">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Right Nucleo Icon">
+                <span class="input-group-addon">
+                    <i class="fa fa-envelope"></i>
+                </span>
+            </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <ul class="nav nav-pills nav-pills-primary" role="tablist">
+        	<li class="nav-item">
+      		<a class="nav-link" data-toggle="tab" href="#active" role="tablist">
+      			<i class="fa fa-diamond"></i>
+      		</a>
+        	</li>
+        	<li class="nav-item">
+      		<a class="nav-link active" data-toggle="tab" href="#link" role="tablist">
+      			<i class="fa fa-thermometer-full"></i>
+      		</a>
+        	</li>
+        	<li class="nav-item">
+      		<a class="nav-link" data-toggle="tab" href="#link" role="tablist">
+      			<i class="fa fa-suitcase"></i>
+      		</a>
+        	</li>
+          <li class="nav-item">
+              <a class="nav-link disabled" data-toggle="tab" href="#disabled" role="tablist">
+      		    <i class="fa fa-exclamation"></i>
+      	    </a>
+          </li>
+      </ul>
+      </div>
+
+      <div class="row">
+
+        <ul class="pagination pagination-primary">
+          <li class="page-item active"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">4</a></li>
+          <li class="page-item"><a class="page-link" href="#">5</a></li>
+        </ul>
+      </div>
+
+      <div class="row">
+        <span class="badge badge-default">Default</span>
+        <span class="badge badge-primary">Primary</span>
+        <span class="badge badge-success">Success</span>
+        <span class="badge badge-info">Info</span>
+        <span class="badge badge-warning">Warning</span>
+        <span class="badge badge-danger">Danger</span>
+      </div>
+      <div class="row">
+        <div class="alert alert-success" role="alert">
+        	<div class="container">
+        		<div class="alert-icon">
+        			<i class="now-ui-icons ui-2_like"></i>
+        		</div>
+        		<strong>Well done!</strong> You successfully read this important alert message.
+        		<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        				<span aria-hidden="true">
+        				<i class="now-ui-icons ui-1_simple-remove"></i>
+        			</span>
+        		</button>
+        	</div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <!-- Scipts -->
+  <script src="js/jquery.js" charset="utf-8"></script>
+  <script src="js/tether.min.js" charset="utf-8"></script>
+  <script src="js/bootstrap.js" charset="utf-8"></script>
+  <script src="js/script.js" charset="utf-8"></script>
+</html>
